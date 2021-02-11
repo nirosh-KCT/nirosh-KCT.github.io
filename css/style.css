@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {    
+    color: #707070;   
+}
+body, p, h1, h2, h3, h4, h5, h6, li, a {
+  font-family: "Montserrat", sans-serif;
+}
+img{
+	width:100% !Important;
+}
+.row {
+	margin:0px 0px !important;
+}
+.bg {
+  height: 100vh;
+  background: transparent linear-gradient(162deg, #e43c4e 0%, #a20037 100%) 0%
+    0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* bakground */
+.bg-overlay {
+  background: url("../assets/Artboard\ –\ 10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 65vh;
+  padding-top: 50px;
+  width: 100%;
+  /* box-sizing: border-box; */
+  /* display: inline; */
+}
+
+.bg-overlay1 {
+  background: url("../assets/Artboard\ –\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 65vh;
+  padding-top: 50px;
+  width: 100%;
+  /* box-sizing: border-box; */
+  /* display: inline; */
+}
+
+
+
+header {
+    text-align: center !important;
+    border-bottom: 3px solid #4e4d4d;
+    -webkit-box-shadow: 0px 4px 2px -1px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 0px 4px 2px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 2px -1px rgb(0 0 0 / 75%);
+}
+.navbar {
+   padding-bottom: 0px !important;
+}
+.laptop{
+	text-align: center;
+	display:none !important;
+}
+
+.main__inner {
+  margin: auto;
+  /* width: 50%; */
+  /* margin-top: 40%;
+    max-width: 480px; */
+}
+
+.custom_btn {
+    color: #e43c4e !important;
+    padding: 5px 50px !important;
+    font-weight: 900 !important;
+    border-radius: 30px;
+    background: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: inherit;
+    border: 2px solid;
+    border-color: transparent;
+}
+.custom_btn:hover {
+    color: #e43c4e !important;   
+    border-color: #fff !important;
+	background:transparent !important;
+	color:#fff !important;
+	-webkit-box-shadow: 2px 2px 8px 2px rgba(103,0,35,0.43); 
+box-shadow: 2px 2px 8px 2px rgba(103,0,35,0.43);
+   
+}
+.logo-main {
+    width: 30% !important;
+    float: left;
+    margin: auto !important;
+}
+.btn_div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: translateY(-25%);
+}
+
+.vertical {
+    width: 2px !important;
+    border-left: 1px solid #f0a9b1;
+    height: 256px;
+    margin: auto;
+}
+.bg-white {
+    background-color: transparent !important;
+}
+.dark .nav-link{
+	color: #A20037 !important;
+}
+.nav-link {
+    color: #e43c4e !important;
+    font-size: 20px !important;
+    line-height: inherit !important;
+    padding: 15px 25px !important;
+    border-bottom: 4px solid;
+    border-color: transparent;
+}
+.dark .nav-link:hover{
+    border-color: #A20037 !important;
+}
+.nav-link:hover{
+    border-color: #e43c4e !important;
+}
+.text_section{
+	padding:5% 0% !important;
+}
+.color_bg{
+	background: #E43C4E;
+    color: #fff;
+}
+.light_bg h2 {
+    color: #E43C4E;
+    font-size: 38px;
+    line-height: inherit;
+    font-weight: 900;
+}
+.dark .light_bg h2 {
+    color: #A20037;
+}
+.bigshot {
+    padding: 2% 28%;
+}
+footer-link{
+	margin: 15px 0px;
+}
+.vertical-red {
+    width: 2px !important;
+    border-left: 1px solid #f0a9b1;
+    height: 155px;
+    margin: auto;
+}
+.light_bg p{
+	color:#707070 !important;
+}
+.color_bg h2 {
+    color: #ffffff;
+    font-size: 38px;
+    line-height: inherit;
+    font-weight: 900;
+}
+p{
+	font-size: 17px;
+    line-height: 32px;
+	margin:0px !important;
+}
+footer{
+	padding:2% 0%;
+}
+.footer-link li {
+    color: #fff !important;
+    float: left;
+    margin: 1% 2.8%;
+    list-style: none;
+    text-align: center;
+}
+.footer-link li a{
+	color: #fff;
+    text-decoration: none;
+}
+.text-dark {
+    color: #212529!important;
+    padding: 10px;
+}
+#exTab2, #exTab1{
+	padding:0px;
+}
+.nav-tabs li {
+    padding: 11px 0px;
+    font-size: 18px;
+    line-height: inherit;
+}
+
+.nav-tabs li a:hover {
+   color: #E43C4E;
+}
+.nav-tabs li a{
+	 padding: 10px 20px;
+	text-decoration: none;
+	color: #B7B7B7;
+    font-weight: 500;
+    line-height: inherit;
+	border-bottom: 4px solid;
+    border-color: transparent;
+}
+.nav-tabs .active {
+    padding: 10px 20px;
+    border-bottom: 4px solid #E43C4E;
+    font-weight: 900;
+    color: #E43C4E;
+}
+#exTab2 .tab-content {
+	padding: 2% 0%;
+	color: #707070;
+}
+#exTab1 .tab-content {
+	padding: 2% 0%;
+	color: #707070;
+}
+#tradition2{
+	padding:0px !important;
+	margin:0px !important;
+}
+.left-equal-height {
+    padding: 5% 8% !important;
+}
+.right-equal-height {
+    padding: 0px !important;
+}
+.line{
+	line-height: 36px;
+}
+@media only screen and (max-width: 1024px) {
+	.nav-link {    
+    font-size: 16px !important;
+    line-height: inherit !important;
+    padding: 15px 14px !important;    
+	}
+	.left-equal-height {
+    padding: 5% 5.5% !important;
+	}
+	.light_bg h2, .color_bg h2 {   
+    font-size: 34px;    
+	}
+	.vertical-red {    
+    height: 106px;
+    margin: auto;
+	}
+	footer {
+    padding: 4% 0%;
+	}
+	.vertical {    
+    height: 173px;
+    margin: auto;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-brand{
+		width:60%;
+	}
+	.logo-main{
+		display:none !important;
+	}
+	.laptop {
+    text-align: left;
+    display: block !important;
+}
+}
+@media screen and (max-width: 800px) {
+    .custom_btn{
+        font-size: 18.5px;
+		font-weight: 700 !important;
+    }
+	.vertical, .vertical-red {       
+	display:none;
+	}
+	.text_section {
+		padding: 8% 0% !important;
+	}
+	.light_bg h2, .color_bg h2 {
+    font-size: 30px;
+	text-align: left;
+    }
+	p {
+    font-size: 16px;
+    line-height: 28px;   
+    text-align: left;
+	}
+	
+  
+}
+@media screen and (max-width: 600px) {
+    .custom_btn{
+        font-size: 18px;
+		font-weight: 700 !important;
+    }
+	.vertical, .vertical-red {       
+	display:none;
+	}
+	.text_section {
+		padding: 10% 0% !important;
+	}
+	.light_bg h2, .color_bg h2 {
+    font-size: 28px;
+	text-align: center;
+    }
+	p {
+    font-size: 15px;
+    line-height: 27px;   
+    text-align: center;
+	}
+	
+  
+}
