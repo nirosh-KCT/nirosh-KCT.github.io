@@ -197,6 +197,71 @@ footer{
     color: #212529!important;
     padding: 10px;
 }
+.contact-white {
+    color: #fff !important;
+    padding: 10px;
+}
+.activity-frame {
+    height: 260px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.activity-img {
+    height: 260px;
+    width: 100%;
+    object-fit: contain;
+    background: transparent;
+    display: block;
+}
+.activity-carousel {
+    padding-bottom: 55px;
+}
+.activity-carousel-frame {
+    height: 420px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+}
+.activity-carousel-img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto !important;
+    object-fit: contain;
+}
+.activity-carousel .carousel-caption-text {
+    color: #707070 !important;
+    text-align: center;
+    font-size: 15px !important;
+    margin-top: 12px !important;
+    padding: 0px 10%;
+}
+.activity-carousel .carousel-control-prev,
+.activity-carousel .carousel-control-next {
+    width: 8%;
+}
+.activity-carousel .carousel-control-prev-icon,
+.activity-carousel .carousel-control-next-icon {
+    background-color: #E43C4E;
+    border-radius: 50%;
+    padding: 18px;
+    background-size: 55%, 55%;
+}
+.activity-carousel .carousel-indicators {
+    bottom: -10px;
+}
+.activity-carousel .carousel-indicators li {
+    background-color: #E43C4E;
+    opacity: 0.4;
+}
+.activity-carousel .carousel-indicators li.active {
+    opacity: 1;
+}
 #exTab2, #exTab1{
 	padding:0px;
 }
